@@ -1,0 +1,102 @@
+.main {
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 10px 20px black;
+    overflow: hidden;
+}
+
+.contactUs {
+    height: 470px;
+    width: 700px;
+    display: flex;
+    color: white;
+    background-color: black;
+    box-shadow: 0px 10px 20px black;
+    background-image: radial-gradient(rgb(77, 76, 76), black);
+}
+
+.side {
+    flex: 50%;
+    text-align: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: -20px;
+}
+
+.side p {
+    padding: 0px 25px 0px 25px;
+    font-size: small;
+    color: rgb(190, 187, 187);
+}
+
+.side h4 {
+    margin-top: 10px;
+}
+
+.form {
+    flex: 50%;
+}
+
+.form>.main {
+    height: 380px;
+    width: 380px;
+    box-shadow: 0px 10px 20px black;
+    margin-left: 150px;
+    text-align: center;
+}
+
+.form>.main>h2 {
+    padding: 15px;
+}
+
+#txt {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid rgb(192, 189, 189);
+    margin-top: 20px;
+    color: rgb(192, 189, 189);
+}
+
+#txt::placeholder {
+    color: rgb(192, 189, 189);
+}
+
+#txt:focus {
+    outline: none;
+}
+
+button {
+    padding: 10px 30px;
+    margin-top: 30px;
+    border: none;
+    box-shadow: 0px 2px 10px black;
+    background-color: rgb(75, 73, 73);
+    cursor: pointer;
+}
+
+button>a {
+    text-decoration: none;
+    color: rgb(161, 155, 155);
+}
+
+.logo {
+    font-family: 'Stalemate', cursive;
+    font-size: xx-large;
+    color: rgb(14, 177, 14);
+    margin-right: 180px;
+    margin-bottom: 15px;
+}
+
+.logo>a {
+    color: rgb(14, 177, 14);
+}
+
+.icons {
+    margin-top: 10px;
+}
+
+.icons i {
+    margin-right: 10px;
+}

@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@300&family=Stalemate&display=swap");
+@import url("ttps://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css")
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(to top, rgb(3, 3, 3), grey);
+    height: 100vh;
+    color: rgb(156, 155, 155);
+    font-family: 'Arima Madurai', cursive;
+}
+
+
